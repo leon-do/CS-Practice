@@ -1,0 +1,47 @@
+Print out all the nodes in a binary in order without recursion.  
+
+Given 4 coins of values 1, 5, 10, and 20, find all the combinations of coins that can add up to K.  
+
+Find the common ancestor in a binary tree.
+
+Code to find the height of the binary tree.
+
+**In-place reversal of a linked list.  
+
+Given a list of n unsorted key-value tuples which are too large to fit in memory, return the k tuples with the greatest value where n is several orders of magnitude greater than k. This list may be dispersed across multiple machines.
+
+Given a linked list, put all the odd elements in lexicographical order list in front of the even elements in lexicographical order in place. 
+
+Given a list of n unsorted key-value tuples which are too large to fit in memory, return the k tuples with the greatest value where n is several orders of magnitude greater than k. This list may be dispersed across multiple machines.
+
+In an array that has one value for more than half of its elements, how can you find that value?
+
+The coding problem he asked me was to find the next larger element in a BST.  
+
+Given the head of a linked list, write a program in your language of choice to return the middle node of the list.  
+
+In an array that has one value for more than half of its elements, how can you find that value?
+
+Find max contiguous sum in array
+
+How would you test whether a sort function for pairs is correct?
+
+reverse a singly linked list
+
+Three baskets. One has apples, one has oranges, one has both. They are all labeled incorrectly. Find out which basket contains which with only 1 draw. 
+
+How would you check if two strings are anagrams.  
+
+give a linked list and remove a node of the given index  
+
+Merge 2 sorted linked lists such that the final linked list is sorted  
+
+Given two nodes in a tree, find the lowest common ancestor  
+
+You have two intersecting linked lists. Describe a function that returns a pointer to the node where they intersect.    
+
+Rearrange digits of a number to find the largest possible number in O(n) time.  
+
+Given two integers, return the numbers of matched digit number. For ex, 130 and 239, return 1. 29 and 92, return 0
+
+

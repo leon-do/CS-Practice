@@ -1,0 +1,50 @@
+Linked List
+
+Binary serach tree
+
+Heap
+
+
+
+
+Multithreading
+
+Distrbuted systems
+
+
+
+
+
+O(1) < O(log(n)) < O(n) < O(n log(n))   < O(n^2)
+
+O(1):           1+1
+O(log(n))       divide and conquer
+O(n)            for loop
+O(n log(n))     divide and conquer inside of a loop
+O(n^2)          nested loop
+O2^n            recursive
+On!             permutations (factorial)
+
+
+
+https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort
+
+https://cs.stackexchange.com/questions/33943/find-the-coins-required-which-sum-to-s
+
+https://gist.github.com/pavankat/77658d6d64720c9dd50678eaad70ab30
+
+https://www.toptal.com/developers/sorting-algorithms
+
+https://code.tutsplus.com/articles/data-structures-with-javascript-stack-and-queue--cms-23348
+
+https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fh5bp%2FFront-end-Developer-Interview-Questions&sa=D&sntz=1&usg=AFQjCNH3E8T8GUkrYmBL6xC84u_8m1BSFA
+
+https://github.com/h5bp/Front-end-Developer-Interview-Questions
+
+https://www.toptal.com/javascript/interview-questions
+
+https://www.google.com/url?q=https%3A%2F%2Fwww.sitepoint.com%2F5-typical-javascript-interview-exercises%2F&sa=D&sntz=1&usg=AFQjCNEQcydXXeEcOd6sU5q9VTdL6JvlVQ
+
+https://www.codementor.io/nihantanu/21-essential-javascript-tech-interview-practice-questions-answers-du107p62z
+
+https://www.youtube.com/playlist?list=PLQHSrcR-RsBRfA1Em9LhoBWi5VjAJuZcE

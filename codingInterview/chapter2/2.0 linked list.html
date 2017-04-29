@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Linked lists</title>
+</head>
+<body>
+    <!-- 
+    This program shows how to create a Singly linkedList
+    and how to add values to it.
+    and remove nodes based on given value
+    -->
+    <script>
+        //jshint esversion:6
+
+        //constructor of linkedList object
+        function LinkedList() {
+            //initilize the first node to null
+            this.head = null;
+        }
+
+        /*
+        * node constructor that holds data
+        * and a null placeholder for the next node    
+        */
+        function Node(val) {
+            this.data = val;
+            this.next = null;
+        }
+
+        LinkedList.prototype.addNode = function(val) {
+            
+            let node = new Node(val);
+
+            //check if this is the first node in list
+            if(!this.head){
+                this.head = node;
+            } else {
+
+                //set starting point of list
+                let currentNode = this.head;
+
+                //iterate through the rest of the list
+                //until we find a node with a null next value
+                while(currentNode.next !== null) {
+                    currentNode = currentNode.next;
+                }
+
+                currentNode.next = node;
+            }
+
+        };
+
+        LinkedList.prototype.removeNode = function(val) {
+
+            //check if value is first node
+            //if so change it to next node
+            if (this.head.data === val) {
+                this.head = this.head.next;
+            } else {
+
+                let currentNode = this.head;
+                //placeholder for previous node
+                let prevNode = this.head;
+
+                while(currentNode.next !== null) {
+                    if (currentNode.data == val) {
+                        //make previous node point to new next node
+                        prevNode.next = currentNode.next;
+                        return;
+                    } else {
+                        prevNode = currentNode;
+                        currentNode = currentNode.next;
+                    }
+                }
+            }
+        };
+
+        let myLinkList = new LinkedList();
+
+        myLinkList.addNode(1);
+        myLinkList.addNode(2);
+        myLinkList.addNode(3);
+        myLinkList.addNode(4);
+
+        console.log(myLinkList);
+
+        //delay to show removal as it is instant without
+        setTimeout(printRemoval, 3000);
+
+        function printRemoval() {
+            myLinkList.removeNode(3);
+            console.log(myLinkList);
+        }
+    </script>
+</body>
+</html>
